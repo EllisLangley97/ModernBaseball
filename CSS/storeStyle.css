@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 100%;
+    background-color: #cef9ff;
+}
+
+.navBar{
+    background-color: #1c1c1c;
+    position: fixed;
+    width:100%;
+    height:7%;
+    padding:0;
+    top: 0;
+    z-index:1000
+}
+
+.navBar div > ul > li > a > img {
+    max-height: 40px;
+}
+
+
+#navLinks > ul > li:hover {
+    background-color: #111;
+}
+
+#socialMedia > ul > li:hover {
+    background-color: #111;
+}
+
+#innerNav{
+    max-width: 40%;
+    margin:0 auto;
+}
+
+#innerNav > div > ul > li{
+    padding: 1% 1%;
+}
+
+#innerNav > ul > li > img{
+    float:left;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    height:5%;
+    max-height: 50px;
+    padding-right:10%;
+    margin-right: 10%;
+}
+
+.navBar li{
+    list-style: none;
+    float:left;
+}
+
+.navBar a{
+    color:white;
+    text-decoration: none;
+}
+
+#navLinks ul li > a{
+    line-height: 50px;
+}
+
+#socialMedia ul li > a > img {
+    height: 5%;
+    max-height: 50px;
+}
+
+#navFiller {
+    width:20%;
+    height: auto;
+    position: relative;
+}
+
+#Content {
+    padding: 2%;
+    max-width: 90%;
+    background-color: white;
+    margin: 5%;
+    margin-top: 6%;
+}
+
+#Content a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.albumArt {
+    height: auto;
+    width: 25%;
+    float: left;
+    padding-right: 3%;
+}
+
+.footer {
+    margin-top: 20%;
+    width: 100%;
+    background-color: #1c1c1c;
+    position: absolute;
+    display: block;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+}
